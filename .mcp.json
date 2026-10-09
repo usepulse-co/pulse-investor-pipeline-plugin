@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pulse-investor-match": {
+      "type": "http",
+      "url": "https://www.usepulse.co/investors/mcp"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "pulse-investor-match": {
+      "type": "streamable-http",
+      "url": "https://www.usepulse.co/investors/mcp"
+    }
+  }
+}

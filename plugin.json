@@ -1,0 +1,49 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pulse-skills",
+  "version": "0.1.1",
+  "description": "Find the right investors for your raise, draft the outreach one firm at a time, and share your deck with one link that shows you who read it.",
+  "author": {
+    "name": "Pulse",
+    "url": "https://usepulse.co"
+  },
+  "homepage": "https://usepulse.co/investors",
+  "license": "MIT",
+  "keywords": [
+    "fundraising",
+    "investors",
+    "venture capital",
+    "founders",
+    "pitch deck"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Pulse Investor Pipeline",
+        "shortDescription": "Find investors, draft outreach",
+        "longDescription": "Ask who you should pitch and get about 20 investors matched to your raise from a directory built from SEC filings and investors' own sites, each with a cited reason, the firms left out and why, and how each one takes pitches. Then draft the outreach one investor at a time: a cold email, the answers to a firm's application form, or a blurb to forward for an intro. When you are ready to send, share your deck through one Pulse link and see who opened it and what they read.",
+        "developerName": "Pulse",
+        "category": "productivity",
+        "capabilities": [
+          "Find investors for a raise",
+          "Explain why each investor fits, with sources",
+          "Draft cold emails",
+          "Answer application forms",
+          "Track who opened a deck"
+        ],
+        "websiteURL": "https://usepulse.co",
+        "privacyPolicyURL": "https://www.usepulse.co/privacy-policy",
+        "termsOfServiceURL": "https://www.usepulse.co/terms-of-service",
+        "defaultPrompt": [
+          "Who should I pitch for our seed round?",
+          "Draft my outreach to the first four investors",
+          "Who has opened my deck?"
+        ],
+        "brandColor": "#7B43C1",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png",
+        "supportURL": "https://www.usepulse.co"
+      }
+    }
+  }
+}

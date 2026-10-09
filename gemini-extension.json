@@ -1,0 +1,10 @@
+{
+  "name": "pulse-skills",
+  "version": "0.1.1",
+  "description": "Find the right investors for your raise, draft the outreach one firm at a time, and share your deck with one link that shows you who read it.",
+  "mcpServers": {
+    "pulse-investor-match": {
+      "httpUrl": "https://www.usepulse.co/investors/mcp"
+    }
+  }
+}
