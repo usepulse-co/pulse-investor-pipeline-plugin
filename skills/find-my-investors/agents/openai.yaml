@@ -1,0 +1,13 @@
+interface:
+  display_name: "Find my investors"
+  short_description: "Find investors for your raise with cited fit reasons"
+  default_prompt: "Use $find-my-investors to find investors for our round."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "pulse-investor-match"
+      description: "Pulse investor directory: match_investors and get_investor, public and read-only"
+      transport: "streamable_http"
+      url: "https://www.usepulse.co/investors/mcp"
