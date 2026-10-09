@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "pulse-skills",
+  "displayName": "Pulse: Build my investor pipeline",
+  "version": "0.1.1",
+  "description": "Find the right investors for your raise, draft the outreach one firm at a time, and share your deck with one link that shows you who read it.",
+  "author": {
+    "name": "Pulse",
+    "url": "https://usepulse.co"
+  },
+  "homepage": "https://usepulse.co/investors",
+  "license": "MIT",
+  "keywords": [
+    "fundraising",
+    "investors",
+    "venture capital",
+    "founders",
+    "pitch deck",
+    "data room"
+  ],
+  "privacyPolicyUrl": "https://www.usepulse.co/privacy-policy",
+  "supportUrl": "https://www.usepulse.co",
+  "skills": "./skills",
+  "icon": "./assets/icon.png",
+  "termsOfServiceUrl": "https://www.usepulse.co/terms-of-service"
+}
