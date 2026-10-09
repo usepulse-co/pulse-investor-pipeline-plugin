@@ -1,0 +1,13 @@
+interface:
+  display_name: "Share my deck"
+  short_description: "Create a deck link and read its recorded engagement"
+  default_prompt: "Use $share-my-deck to help share my deck with investors."
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "pulse"
+      description: "The founder's own Pulse workspace: documents, links and viewing activity. Needs sign-in."
+      transport: "streamable_http"
+      url: "https://api.usepulse.co/mcp"
