@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "pulse",
+  "description": "Skills from Pulse for founders raising money.",
+  "owner": { "name": "Pulse", "url": "https://usepulse.co" },
+  "plugins": [
+    {
+      "name": "pulse-skills",
+      "source": "./",
+      "description": "Find the right investors, draft the outreach one firm at a time, and share your deck with one tracked link.",
+      "category": "productivity",
+      "homepage": "https://usepulse.co/investors",
+      "license": "MIT"
+    }
+  ]
+}
